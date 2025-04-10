@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+header{
+    width: 100%;
+    height: 128px;
+    background-image: url(images/a1.jpg);
+    position: fixed;
+    z-index: 11;
+}
+.orta{
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    top: 33px;
+    left: 20%;
+}
+nav{
+    width: 100%;
+    height: 63px;
+    background-image: url(images/a2.gif);
+    position: fixed;
+    transition: top 1s;
+    top: 128px;
+    z-index: 10;
+}  
+nav> ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: 20%;
+    line-height: 63px;
+} 
+nav> ul li{
+    margin-right: 20px;
+    float: left;
+}
+nav> ul li a{
+    color: #2e2017;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: all 300ms; 
+    text-align: center;
+}
+nav> ul li a:hover{
+    width: auto;
+    font-size: 28px;
+    background-color: #2e2017;
+    color: wheat;
+}
+header>.orta h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header>.orta h5{
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+section{
+    width: 800px;
+    height: 1200px;
+    margin: 0 auto;
+    left: 20%;
+    position: absolute;
+    border-bottom: 1px solid #ebede2;
+    margin-top: 191px;
+}
+.sol{
+    width: 550px;
+    height: 1000px;
+    float: left;
+}
+.sag{
+    width: 200px;
+    height: 600px;
+    float: right;
+}
+aside{
+    width: 200px;
+    height: auto;
+    font-size: 13px;
+    transition: all 300ms;
+}
+aside> .baslik{
+    background-image: url(images/a4.gif);
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    line-height: 30px;
+    font-size: 16px;
+}   
+aside> .ic{
+    padding: 10px;
+}
+aside> .ic a{
+    color: rgb(197, 128, 0);
+    transition: margin 300ms, color 300ms;
+}
+aside> .ic a:hover{
+    color: rgb(138, 90, 0);
+    margin-left: 10px;
+}
+aside:hover{
+    height: auto;
+    width: 300px;
+    position: relative;
+    font-size: 20px;
+}
+article> p a{
+    color: rgb(197, 128, 0);
+    transition: color 300ms;
+}
+article> p a:hover{
+    color: rgb(146, 95, 1);
+}
+aside> ul li a{
+    color: rgb(197, 128, 0);
+    transition: margin 300ms, color 300ms;
+}
+aside> ul li a:hover{
+    margin-left: 10px;
+    color: rgb(146, 95, 1);
+}
+article> ul li a{
+    color: rgb(197, 128, 0);
+    transition: margin 300ms, color 300ms;
+}
+article> ul li a:hover{
+    color: rgb(146, 95, 1);
+    margin-left: 10px;
+}
+.sol> h2{
+    border-bottom: 1px solid #eeedcc;
+    height: 40px;
+}
+.sol> h4{
+    border-bottom: 1px solid #eeedcc;
+    height: 30px;
+}
+.sol> p{
+    text-align: justify;
+    font-size: 16px;
+}
+.sol> .block{
+    border-left: 5px solid #fffeef;
+    transition: border 300ms;
+}
+.sol> .block:hover{
+    border-left: 5px solid #f7eecd;
+}
+.sol> .block p{
+    margin-left: 15px;
+}
+.sol> table .koyu{
+    background-color: #f7eecd;
+    transition: 300ms;
+}
+.sol> table .acik{
+    background-color: #fffeef;
+}
+.sol> table .koyu td{
+    transition: background-color 300ms;
+}
+.sol> table .acik td{
+    transition: background-color 300ms;
+}
+.sol> table .koyu td:hover{
+    background-color: #d6ceb2;
+}
+.sol> table .acik td:hover{
+    background-color: #dad9cb;
+}
+.sol> table tr td{
+    padding: 10px;
+}
+footer{
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 1400px;
+    left: 20%;
+    text-align: center;
+    line-height: 50px;
+    transition: all 300ms;
+}
+footer> a{
+    color: rgb(197, 128, 0);
+    transition: color 300ms;
+}
+footer> a:hover{
+    color: rgb(133, 86, 0);
+}
+footer:hover{
+    font-size: 25px;
+}
+::selection{
+    background-color: rgb(197, 128, 0);
+    color: white;
+}
